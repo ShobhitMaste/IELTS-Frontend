@@ -18,7 +18,6 @@ export default function App() {
       <Review/>
       <hr className="mt-14"/>
       <Footer/>
-      <br/><br/><br/><br/><br/><br/><br/>
     </div>
   );
 }

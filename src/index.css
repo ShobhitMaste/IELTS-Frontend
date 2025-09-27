@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .boldfont {
-  font-family: "Roboto", sans-serif;
+  font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -11,7 +11,7 @@
 
 .mainfont {
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -76,7 +76,7 @@ hr {
 .heroHeading {
   font-size: 36px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
@@ -90,7 +90,7 @@ hr {
 .Heading {
   font-size: 30px;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
+ font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
@@ -123,6 +123,7 @@ hr {
     margin-bottom: 8px;
 }
 .footer{
-    font-size: 16px;
+    font-size: 14px;
+    font-weight:400;
 }
 
