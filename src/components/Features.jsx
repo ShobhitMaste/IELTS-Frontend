@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Features() {
   return (
-    <div className='mx-43 mt-14'>
+    <div className=' mx-6 md:mx-20 xl:mx-43 mt-14' id="features">
         <h1 className='Heading mb-2'>Programs that Deliver Results</h1>
         <p className='paragraphs mb-8'>Practical training tailored to the IELTS format, backed by data and expert guidance.</p>
-        <div className='grid grid-cols-4 gap-5'>
+        <div className='flex justify-center items-stretch flex-col md:flex-row gap-5'>
             <div className='featureCard shadow-md/6'>
                 <h1>Speaking Practice</h1><br/>
                 <p>Live speaking sessions with expert mentors and actionable feedback.</p>

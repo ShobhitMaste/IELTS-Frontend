@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="grid grid-cols-2 mt-33 mx-43 gap-10">
+    <div className="md:grid md:grid-cols-2 mt-33  mx-6 md:mx-20 xl:mx-43 gap-10" id="home">
       <div className="flex justify-center items-start flex-col">
         <h1 className="heroHeading mb-5">
           Ace Your IELTS with Expert Guidance and Smart Practice
@@ -16,8 +16,7 @@ export default function Hero() {
           <button className="blackTextGreyBorder">See Our Programs</button>
         </div>
       </div>
-
-      <img src="classroom.png" className="classroom" />
+      <img src="classroom.png" className="classroom mt-10 md:mt-0" />
     </div>
   );
 }
