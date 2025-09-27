@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.boldfont {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  font-variation-settings:
+  "wdth" 100;
+  
+}
+
+.mainfont {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#logo{
+    height: 27px;
+    border: 2px solid rgb(171, 171, 171);
+    background-color: rgb(255, 255, 255);
+    padding:2px;
+    border-radius: 5px;;
+}
