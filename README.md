@@ -12,7 +12,7 @@ A modern, responsive landing page for an IELTS preparation platform built with R
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ShobhitMaste/IELTS-Frontend.git
    cd ielts-frontend
    ```
 
