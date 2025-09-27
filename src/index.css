@@ -26,8 +26,12 @@
   border-radius: 5px;
 }
 
+.header {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(7px);
+}
 .navbarLinks {
-  color: #656565;
+  color: oklch(0.55 0 0);
   cursor: pointer;
 }
 .navbarLinks:hover {
@@ -48,8 +52,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.blackTextGreyBorder:hover{
-    background-color: rgb(191, 191, 191);
+.blackTextGreyBorder:hover {
+  background-color: rgb(191, 191, 191);
 }
 
 .whiteTextBlackBorder:hover {
@@ -74,12 +78,51 @@ hr {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-style:normal;
+  font-style: normal;
   font-variation-settings: "wdth" 100;
   line-height: 1.3;
 }
 
-.paragraphs{
-    color:#656565;
-
+.paragraphs {
+  color:oklch(0.55 0 0);
 }
+
+.Heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.3;
+}
+
+.featureCard {
+  border: 1px solid oklch(0.922 0 0);
+  border-radius: 8px;
+  padding:22px 25px 22px 25px;
+}
+.featureCard h1 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.featureCard p {
+  color: oklch(0.55 0 0);
+  font-size: 14px;
+}
+.review {
+  border: 1px solid oklch(0.922 0 0);
+  border-radius: 8px;
+  padding:22px 25px 22px 25px;
+}
+
+.quote{
+    font-style: italic;
+    border-left: 2px solid rgb(203, 203, 203);
+    padding-left:8px;
+    margin-bottom: 8px;
+}
+.footer{
+    font-size: 16px;
+}
+
